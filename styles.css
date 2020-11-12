@@ -1,0 +1,25 @@
+.table{
+    max-width: 400px;
+    margin: 20px auto;
+}
+.table__header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.table__header div{
+    flex-basis: 50%;
+    border-left: 1px solid black;
+}
+.table__row{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.table__row div{
+    border-left: 1px solid black;
+    flex-basis: 50%;
+}
